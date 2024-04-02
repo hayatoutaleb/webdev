@@ -1,55 +1,43 @@
+body{
+    background-color: aqua;
+}
 h1{
-    font-family: "Madimi One", sans-serif;
+    color: white;
+}
+.liste1{
+    display: flex;
+    flex-direction: row;
+}
+.liste2{
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    margin-top: 2rem;
+ 
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+li{
+    list-style: none;
+    margin: 10px 13px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-p{
-    color: red;
-    font-size: 20px;
-
+.btn{
+    background-color: inherit;
+    border-radius: 7px;
+    padding: 5px 10px;
 }
-span{
-    color :green;
-    font-size: 15px;
-
-}
-h1:hover{
-    color:bisque;
-    cursor:pointer;
-    font-weight: 600;
-}
-p:hover{
-    color:blue;
-    cursor:grab;
-    font-weight: 100;
-}
-span:hover{
-    color:blueviolet;
-    cursor:copy;
-    font-weight: bold;
-}
-li:hover{
-    color: beige;
-    cursor:pointer;
-}
-img{
-    width:300px;
-    height:300px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
-
-}
-.divhome{
-    display:flex;
-    flex-direction: :row;
-}
-.divprincipale{
+.fleex{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-.divsecond{
-    margin-left: 3rem;
-
+    gap: 5%;
 }
